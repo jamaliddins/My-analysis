@@ -1,0 +1,21 @@
+Insights from the Amazon sales dataset.
+
+1. Testing the first hypothesis: "Does order quantity correlate with sale amount — and does this relationship differ for B2B vs B2C?"
+
+The answer: Yes. It was proved by the Spearman Correlation test. The p-value is less than 0.05, so the hypothesis is significant. B2C was much higher in count, but the median prices are almost equal.
+
+2. Testing the second hypothesis: "Do B2B orders generate significantly higher revenue per unit than B2C orders?"
+
+The answer: Yes. The Mann-Whitney U test proved the hypothesis. The difference was +7.3%.
+
+3. Testing the third hypothesis: "Does sales Amount differ significantly across product Categories?"
+
+The answer: Yes. Even though the quantity of B2B is significantly less than that of B2C, the Kruskal-Wallis test showed that the hypothesis is supported. By category, the top on the list is Ethnic Dress median amount, while Bottom is on the lowest place. Then, Pairwise comparisons also showed that most of pair of categories different.
+
+4. Testing the fourth hypothesis: "Is the spread of sale amounts wider for Bulk orders than Single or Small orders?"
+
+The answer: Yes. It was proved by the Levene's test, because the p-value is less than 0.05. The IQR (Interquartile Range) of small quantities (2-5) was higher than a single quantity. The bulk number appeared once in the period.
+
+5. Testing the fifth hypothesis: "Is cancellation rate associated with fulfilment method?"
+
+The answer: Yes. It was proved by the Chi-Square test when the p-value was less than 0.05. The only customers who bought from Amazon fulfilment cancelled their purchases.
