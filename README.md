@@ -1,4 +1,5 @@
 This dataset provides detailed insights into Amazon sales data, including SKU Code, Design Number, Stock, Category, Size and Color, to help optimize product profitability
+
 Category: Type of product. (String)
 Size: Size of the product. (String)
 Date: Date of the sale. (Date)
